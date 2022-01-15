@@ -37,7 +37,9 @@ Note that all of these scripts are in Python.   I don't really recommend impleme
 since Python is slow and my blob finder could be many times faster if it was made with a compiled language.   
 I will probably revisit this algorithm once I get done playing around with lidar on my mapping robot and will 
 almost certainly make this more robust and efficient in C++.  My recommendation is that you look at what I 
-have done here and then rewrite this in a compiled language.  
+have done here and then rewrite this in a compiled language.  Of course, OpenCV has a blob finder too.  You could 
+probably use that and save yourself a lot of trouble.  In that case, this would run fine in python.  
+
 
 I haven't included any video files here but have put the following on my web server:
 http://www.robotbrigade.com/random/new_circle.mp4   
